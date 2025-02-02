@@ -1,0 +1,32 @@
+{
+  "name": "medguardian",
+  "version": "1.0.0",
+  "description": "MedGuardian is an AI-powered platform designed to provide continuous remote health monitoring for high-risk individuals, especially in underserved or remote areas. Leveraging affordable wearable sensors, smartphones, and Nokia’s advanced connectivity solutions, MedGuardian can detect early signs of medical emergencies",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.2",
+    "@radix-ui/react-alert-dialog": "^1.1.5",
+    "@radix-ui/react-aspect-ratio": "^1.1.1",
+    "@radix-ui/react-avatar": "^1.1.2",
+    "@radix-ui/react-slot": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.474.0",
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-day-picker": "^9.5.1",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.1",
+    "tailwind-merge": "^3.0.1"
+  },
+  "devDependencies": {
+    "@shadcn/ui": "^0.0.4"
+  }
+}
